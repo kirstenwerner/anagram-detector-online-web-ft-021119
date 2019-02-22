@@ -1,6 +1,4 @@
-# require 'pry'
 class Anagram
-  
   attr_accessor :word 
 
   def initialize(word)
@@ -20,9 +18,4 @@ class Anagram
     anagram_array
   end 
   
-  
 end 
-
-
-# listen = Anagram.new("listen")
-# listen.match(%w(enlists google inlets banana))
